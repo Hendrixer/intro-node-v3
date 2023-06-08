@@ -1,0 +1,23 @@
+{
+  "name": "intro-to-nodejs-v3",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "node --experimental-vm-modules node_modules/jest/bin/jest.js"
+  },
+  "bin": {
+    "note": "./index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "open": "^9.1.0",
+    "yargs": "^17.7.2"
+  },
+  "devDependencies": {
+    "jest": "^29.5.0"
+  }
+}
